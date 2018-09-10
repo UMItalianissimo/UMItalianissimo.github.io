@@ -1,0 +1,37 @@
+{
+    "aakash": {
+        "firstName": "Aakash",
+        "lastName": "Patel",
+        "year": 2020,
+        "study": "Neuroscience, Computer Science",
+        "hasPhoto": "true"
+    },
+    "anna": {
+        "firstName": "Anna",
+        "lastName": "Spoto",
+        "year": 2019,
+        "study": "Biochemistry",
+        "hasPhoto": "false"
+    },
+    "francesca": {
+        "firstName": "Francesca",
+        "lastName": "Terzoli",
+        "study": "Psychology",
+        "year": 2019,
+        "hasPhoto": "true"
+    },
+    "giovanna": {
+        "firstName": "Giovanna",
+        "lastName": "Fortuna",
+        "year": 2020,
+        "study": "Italian",
+        "hasPhoto": "true"
+    },
+    "sabrina": {
+        "firstName": "Sabrina",
+        "lastName": "Lieghio",
+        "year": 2020,
+        "study": "Economics, Italian",
+        "hasPhoto": "true"
+    }
+}

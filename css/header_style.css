@@ -1,0 +1,48 @@
+.heading {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+    height: auto;
+}
+
+.heading_logo {
+    width: 20%;
+    padding: 40px 10px 20px 10px;
+    font-size: 48px;
+    position: block;
+    left: 0;
+}
+
+#logo_m {
+    color: #fbb73b;
+}
+
+
+.navbar {
+    padding: 40px 10px 20px 10px;
+    width: 60%;
+    z-index: 5;
+    align: right;
+}
+
+
+.menuItem {
+    color: black;
+    padding: 10px 40px 10px 40px;
+    display: inline-block;
+    font-size: 18px;
+    user-select: none;
+}
+
+#item1:hover {
+    background-color: #cae5c7;
+}
+
+#item2:hover {
+    margin: -1px;
+    border: 1px solid black;
+}
+
+#item3:hover {
+    background-color: #eaafaf;
+}

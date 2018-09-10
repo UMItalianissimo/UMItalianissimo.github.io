@@ -1,0 +1,62 @@
+body {
+    background: url("../assets/img/bocce_edited.jpg");
+    background-size: cover;
+}
+
+.idk_bar {
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    color: white;
+
+    text-align: center;
+    background-color: #3d5377;
+}
+
+.idk_bar span {
+    padding: 20px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    height: 300px;
+    margin: 100px 0px;
+}
+
+.info_block {
+    width: 300px;
+    height: 300px;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    margin: 0px 60px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.info_block p {
+    padding: 0px 20px;
+    color: black;
+    margin: 0;
+}
+
+p.main{
+    font-size: 24px;
+}
+
+p.sub {
+    font-size: 18px;
+}
+
+#next_event {
+    background-color: #cae5c7d9;
+}
+
+#next_convo_hour {
+    background-color: #ffffffd9;
+}
+
+#connect {
+    background-color: #eaafafd9;
+}

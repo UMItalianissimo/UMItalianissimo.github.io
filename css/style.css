@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Oxygen;
+    src: url(../assets/fonts/Oxygen-Regular.ttf);
+}
+
+@font-face {
+    font-family: Oxygen;
+    src: url(../assets/fonts/Oxygen-Bold.ttf);
+    font-weight: bold;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    background-attachment: fixed;
+    height: 100%;
+}
+
+body {
+    font-family: Oxygen;
+
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 100%;
+    height: auto;
+
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+::selection {
+    background: white;
+    color: black;
+}
+
+div {
+    max-width: 100%;
+}
+
+ul,li {
+   list-style:none;
+   margin:0;
+   padding:0;
+}
+
+li {
+    cursor: pointer;
+}

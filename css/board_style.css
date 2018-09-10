@@ -1,0 +1,40 @@
+.idk_bar {
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    color: white;
+
+    text-align: center;
+    background-color: #3d5377;
+}
+
+.idk_bar span {
+    padding: 20px;
+}
+
+.board_description {
+    margin: 20px 200px;
+}
+
+.board_members {
+    margin: 20px 200px;
+}
+
+.board_members p {
+    font-size: 18px;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+.board_members div {
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    margin: 30px 80px;
+}
+
+.board_members img {
+    height: 150px;
+    padding: 20px;
+}
