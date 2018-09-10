@@ -44,9 +44,9 @@
     "julie": {
         "firstName": "Julie",
         "lastName": "Palmer",
-        "study": "",
+        "study": "Undecided",
         "year": 2021,
-        "hasPhoto": "false"
+        "hasPhoto": "true"
     },
     "sabrina": {
         "firstName": "Sabrina",
