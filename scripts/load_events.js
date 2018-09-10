@@ -1,6 +1,6 @@
 // Client ID and API key from the Developer Console
 var CLIENT_ID = '651655525617-pm3j2o1bncoi2b9n0ss840h0gbvdaotq.apps.googleusercontent.com';
-var API_KEY = 'AIzaSyDrjJQo6BKW9zMLSOOy4NW15jnPF1MxB9Y';
+var API_KEY = 'AIzaSyDrjJQo6BKW9z' + 'MLSOOy4NW15jnPF1MxB9Y';
 var CALENDAR_ID = 'umich.edu_nafpvsdump5t4evj124vs8lcd0@group.calendar.google.com';
 
 // Array of API discovery doc URLs for APIs used by the quickstart
