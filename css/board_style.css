@@ -1,4 +1,4 @@
-.idk_bar {
+.title {
     height: 50px;
     line-height: 50px;
     font-size: 24px;
@@ -8,8 +8,16 @@
     background-color: #3d5377;
 }
 
-.idk_bar span {
+.title span {
     padding: 20px;
+}
+
+.image {
+    /* TODO: find a more recent board picture */
+    background-image: url("../assets/img/f15.jpg");
+    background-size: 100%;
+    background-position: 0% 40%;
+    height: 300px;
 }
 
 .board_description {

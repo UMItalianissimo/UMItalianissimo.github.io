@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $.getJSON("https://api.myjson.com/bins/cf40g", function( data ) {
+    $.getJSON("json/board_description.json", function( data ) {
         var items = [];
         $.each( data, function( key, val ) {
             items.push( "<p id='" + key + "'>" + val + "</p>" );
@@ -25,14 +25,16 @@ $(document).ready(function(){
                 "<p>" + member.firstName + " " + member.lastName + " " + member.year +
                 "</p><p>" + member.study + "</p></div>");
 
-            console.log(member.firstName + " " + member.hasPhoto);
+            // if there is a photo, use that
             if (member.hasPhoto == "true") {
                 element.prepend("<img src='assets/img/board/" +
                     (member.firstName + member.lastName).toLowerCase() + ".jpg'>");
             }
+            // otherwise use the temporary incognito icon
             else {
                 element.prepend("<img src='assets/img/board/incognito.jpg' >");
             }
+            // add the new element to the container
             $(".board_members").append(element);
         }
 

@@ -1,0 +1,20 @@
+.title {
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    color: white;
+
+    text-align: center;
+    background-color: #3d5377;
+}
+
+.title span {
+    padding: 20px;
+}
+
+.image {
+    background-image: url("../assets/img/conversation.jpg");
+    background-size: 100%;
+    background-position: 0% 40%;
+    height: 300px;
+}
