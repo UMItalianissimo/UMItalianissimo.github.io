@@ -17,3 +17,8 @@
     background-size: 100%;
     height: 300px;
 }
+
+.calendar {
+    text-align: center;
+    margin: 20px 0px;
+}
