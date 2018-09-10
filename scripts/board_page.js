@@ -27,8 +27,10 @@ $(document).ready(function(){
 
             // if there is a photo, use that
             if (member.hasPhoto == "true") {
+                var name = member.firstName.replace(/\s+/g, "") + member.lastName.replace(/\s+/g, "");
+                console.log(name);
                 element.prepend("<img src='assets/img/board/" +
-                    (member.firstName + member.lastName).toLowerCase() + ".jpg'>");
+                    name.toLowerCase() + ".jpg'>");
             }
             // otherwise use the temporary incognito icon
             else {
