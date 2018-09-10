@@ -10,7 +10,7 @@ $(document).ready(function(){
         }
     });
 
-    $.getJSON("https://api.myjson.com/bins/euzlc", function(data) {
+    $.getJSON("json/board_members.json", function(data) {
 
         // add all the board members to a list
         var members = [];

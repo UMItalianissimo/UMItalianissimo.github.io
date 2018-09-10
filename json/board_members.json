@@ -6,11 +6,25 @@
         "study": "Neuroscience, Computer Science",
         "hasPhoto": "true"
     },
+    "alex": {
+        "firstName": "Alex",
+        "lastName": "Pallazola",
+        "study": "",
+        "year": 2021,
+        "hasPhoto": "false"
+    },
     "anna": {
         "firstName": "Anna",
         "lastName": "Spoto",
         "year": 2019,
         "study": "Biochemistry",
+        "hasPhoto": "false"
+    },
+    "emilia": {
+        "firstName": "Emilia",
+        "lastName": "Ferme Giralt",
+        "study": "Environmental Engineering",
+        "year": 2021,
         "hasPhoto": "false"
     },
     "francesca": {
@@ -26,6 +40,13 @@
         "year": 2020,
         "study": "Italian",
         "hasPhoto": "true"
+    },
+    "julie": {
+        "firstName": "Julie",
+        "lastName": "Palmer",
+        "study": "",
+        "year": 2021,
+        "hasPhoto": "false"
     },
     "sabrina": {
         "firstName": "Sabrina",
