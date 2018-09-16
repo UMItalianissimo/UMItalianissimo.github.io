@@ -9,9 +9,9 @@
     "alex": {
         "firstName": "Alex",
         "lastName": "Pallazola",
-        "study": "",
+        "study": "Cellular and Molecular Biology",
         "year": 2021,
-        "hasPhoto": "false"
+        "hasPhoto": "true"
     },
     "anna": {
         "firstName": "Anna",
@@ -52,7 +52,7 @@
         "firstName": "Sabrina",
         "lastName": "Lieghio",
         "year": 2020,
-        "study": "Economics, Italian",
+        "study": "BGS - Economics, Business",
         "hasPhoto": "true"
     }
 }
